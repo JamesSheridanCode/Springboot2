@@ -16,4 +16,21 @@ public class MyController {
 
         return "Greetings from Search Page!";
     }
+    @GetMapping("/create")
+    public String create() {
+
+        return "CREATE PETITION Page!";
+    }
+    @GetMapping("/viewall")
+    public String viewall() {
+
+        return "View All Petitions Page!";
+    }
+
+    @GetMapping("/viewpetition")
+    public String viewpetionl() {
+
+        return "View  Petitions Page!";
+    }
+
 }

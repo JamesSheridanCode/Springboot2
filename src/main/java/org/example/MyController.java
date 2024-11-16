@@ -21,6 +21,7 @@ public class MyController {
 
         return "CREATE PETITION Page!";
     }
+    //test again
     @GetMapping("/viewall")
     public String viewall() {
 

@@ -26,7 +26,7 @@ public class MyController {
 
         return "View All Petitions Page!";
     }
-
+    //for testing
     @GetMapping("/viewpetition")
     public String viewpetionl() {
 

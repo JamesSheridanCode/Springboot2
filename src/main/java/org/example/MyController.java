@@ -11,4 +11,9 @@ public class MyController {
 
         return "Greetings from Spring Boot!";
     }
+    @GetMapping("/search")
+    public String search() {
+
+        return "Greetings from Search Page!";
+    }
 }

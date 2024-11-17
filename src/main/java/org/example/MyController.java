@@ -21,13 +21,13 @@ public class MyController {
 
         return "CREATE PETITION Page!";
     }
-    //test again
+    //test again 2
     @GetMapping("/viewall")
     public String viewall() {
 
         return "View All Petitions Page!";
     }
-    //for testing
+    //for testing 2
     @GetMapping("/viewpetition")
     public String viewpetionl() {
 
